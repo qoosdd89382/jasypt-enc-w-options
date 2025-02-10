@@ -10,5 +10,5 @@ openssl pkcs8 -topk8 -inform pem -in private.pem -outform pem -nocrypt -out priv
 ```
 ## Use
 ```shell
-java -jar -pk D:\public.pem -i preparedToEncString
+java -jar .\jasypt-0.0.1-SNAPSHOT.jar -pk D:\public.pem -i preparedToEncString
 ```
